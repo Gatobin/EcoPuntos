@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: eco-puntos
+    runtime: docker
+    env: docker
+    port: 10000  # ¡Importante! Debe coincidir con el EXPOSE del Dockerfile
+    build:
+      dockerfile: Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
+    # Si usas base de datos, agrega estas variables (ajusta los valores):
+    # - key: DB_HOST
+    #   value: tu-host-de-render
+    # - key: DB_USER
+    #   value: usuario
+    # - key: DB_PASSWORD
+    #   generateValue: true  # Render generará una contraseña segura
