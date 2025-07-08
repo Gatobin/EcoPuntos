@@ -1,0 +1,28 @@
+{
+    "gato": {
+        "password": "$2y$10$7skxCDfCQzQxpYOJLb76juTeAlyIt7j\/utM.H3jLJQ\/k4s1.eyrnC",
+        "retosComplete": {
+            "sigeLaPagina": 1,
+            "recolectarBotellas": 0
+        },
+        "reedem": {
+            "insigniaVirtual": 1,
+            "semillasPlatano": 0
+        },
+        "puntosALoLargoDelTiempo": 50,
+        "puntosRestantes": 0
+    },
+    "admin": {
+        "password": "$2y$10$U63rKs7T4uB6BRAlHQ9X9.9qSYkT.KHEpyygLPx1BoYJpNUK2LMgG",
+        "retosComplete": {
+            "sigeLaPagina": 4,
+            "recolectarBotellas": 0
+        },
+        "reedem": {
+            "insigniaVirtual": 4,
+            "semillasPlatano": 0
+        },
+        "puntosALoLargoDelTiempo": 200,
+        "puntosRestantes": 0
+    }
+}
